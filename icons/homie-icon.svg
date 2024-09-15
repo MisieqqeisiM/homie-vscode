@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="homie-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4289282"
+     inkscape:cx="293.57669"
+     inkscape:cy="338.01559"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000080;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect3"
+       width="75.17395"
+       height="75.17395"
+       x="15.196486"
+       y="56.179832"
+       inkscape:export-filename="icons/homie-icon.png"
+       inkscape:export-xdpi="432.49026"
+       inkscape:export-ydpi="432.49026" />
+    <path
+       style="fill:#00c90e;fill-opacity:1;stroke:none;stroke-width:0.247733;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 37.206737,79.32509 c -2.298188,9.020752 -9.186888,41.23577 0.463768,41.27698 9.650655,0.0412 -3.27751,-24.17253 17.270925,-25.081686 20.548436,-0.909164 -9.07477,20.248926 2.396528,23.271526 9.866825,2.59984 16.886913,-18.54761 13.486189,-32.200633 -3.400725,-13.653039 -0.251058,-20.484499 -6.920105,-18.953006 -11.692535,2.685095 5.144783,20.264191 -11.386178,20.171787 -9.408401,-0.0526 -1.340692,-19.778742 -8.194547,-21.20307 -3.561315,-0.740091 -4.818389,3.697349 -7.11658,12.718102 z"
+       id="path1"
+       sodipodi:nodetypes="zcssssssz" />
+  </g>
+</svg>

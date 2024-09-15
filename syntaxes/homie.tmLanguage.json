@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "homie",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "punctuation.terminator.homie",
+					"match": ";"
+				},
+				{
+					"name": "keyword.control.homie",
+					"match": "\\b(fit|ret)\\b"
+				},
+				{
+					"name": "storage.type.struct.homie",
+					"match": "\\b(dis)\\b"
+				},
+				{
+					"name": "keyword.other.homie",
+					"match": "\\b(fun)\\b"
+				},
+				{
+					"name": "keyword.operator.homie",
+					"match": "(=>|::|\\.|,|:)"
+				},
+				{
+					"name": "constant.numeric.homie",
+					"match": "\\b[0-9]+\\b"
+				},
+				{
+					"name": "entity.name.type.homie",
+					"match": "\\b\\p{Lu}[^[:space:]:]*\\b"
+				},
+				{
+					"name": "entity.name.function.homie",
+					"match": "[^[:space:]:\\\";]+"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.homie",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.homie",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.homie"
+}
