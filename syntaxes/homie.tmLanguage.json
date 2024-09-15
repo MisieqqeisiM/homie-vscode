@@ -21,12 +21,8 @@
 					"match": "\\b(fit|ret)\\b"
 				},
 				{
-					"name": "storage.type.struct.homie",
-					"match": "\\b(dis)\\b"
-				},
-				{
 					"name": "keyword.other.homie",
-					"match": "\\b(fun)\\b"
+					"match": "\\b(fun|dis)\\b"
 				},
 				{
 					"name": "keyword.operator.homie",
