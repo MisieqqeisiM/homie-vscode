@@ -3,6 +3,12 @@
 	"name": "homie",
 	"patterns": [
 		{
+			"include": "#line_comment"
+		},
+		{
+			"include": "#block_comment"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -18,7 +24,7 @@
 				},
 				{
 					"name": "keyword.control.homie",
-					"match": "\\b(fit|ret)\\b"
+					"match": "\\b(fit|ret|let|wrt)\\b"
 				},
 				{
 					"name": "keyword.other.homie",
@@ -34,11 +40,11 @@
 				},
 				{
 					"name": "entity.name.type.homie",
-					"match": "\\b\\p{Lu}[^[:space:]:]*\\b"
+					"match": "\\b\\p{Lu}[^[:space:]:\\.\\[\\]\\(\\);\\\"\\{\\}]*\\b"
 				},
 				{
 					"name": "entity.name.function.homie",
-					"match": "[^[:space:]:\\\";]+"
+					"match": "[^[:space:]:\\\";\\(\\)\\{\\}\\[\\]\\.]+"
 				}
 			]
 		},
@@ -52,6 +58,21 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"block_comment": {
+			"begin": "\\/\\*",
+			"end": "\\*\\/",
+			"name": "comment.block.homie",
+			"patterns": [
+				{
+					"include": "#block_comment"
+				}
+			]
+		},
+		"line_comment": {
+			"begin": "\\/\\/",
+			"end": "(?<!\\\\)(?:(?=\\n)|(?<=^\\n|[^\\\\]\\n)(?=$))",
+			"name": "comment.line.homie"
 		}
 	},
 	"scopeName": "source.homie"
